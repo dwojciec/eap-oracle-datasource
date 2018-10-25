@@ -14,5 +14,5 @@ install_modules ${injected_dir}/modules
 configure_drivers ${injected_dir}/drivers.env
 
 #configure_translators ${injected_dir}/install.properties
-rm ${injected_dir}
+rm -rf ${injected_dir}
 
